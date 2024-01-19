@@ -1,0 +1,366 @@
+@media(max-width: 1024px) {
+    .enquire-contact {
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+section.media-text-section, section.media-text-section.reverse {
+    flex-direction: column-reverse;
+}
+.media-text-section .image {
+    width: 100%;
+    margin-left: 0;
+}
+.media-text-section .text-container {
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0;
+}
+.text-cont {
+    max-width: 100%;
+}
+section.media-text-section.padding-box {
+    padding-top: 25px;
+}
+.padding-box {
+    padding: 100px 60px 0;
+}
+.media-text-section .text-cont {
+    padding: 80px 40px;
+}
+.text-section .text-container {
+    padding: 117px 40px;
+}
+header {
+    padding: 30px 60px;
+}
+header.scrolled {
+    padding: 20px 60px;
+}
+.text-section {
+    padding: 0 60px;
+}
+.start-screen {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.start-screen .start-headline {
+    font-size: 40px;
+    width: 100%;
+    min-width: 520px;
+}
+.start-bottom {
+    margin-bottom: 0;
+}
+}
+
+
+@media (max-width: 991px) {
+    .slider-item .slider-out {
+        height: 550px;
+        min-height: auto;
+        padding: 85px 60px 85px;
+    }
+    .slider-item .slider-bottom {
+        margin-top: 100px;
+    }
+    .slider-item .slider-out .slider-title {
+        margin-bottom: 22px;
+        font-family: 'GothamBold';
+        font-size: 40px;
+        max-width: 100%;
+        z-index: 10;
+        position: relative;
+        color: #fff;
+    }
+    .media-text-cont h1 {
+        font-size: 30px;
+    }
+    .media-text-cont {
+        padding: 0px 60px;
+    }
+    section.media-text-section.fixed-media.padding-box {
+    flex-direction: column;
+}
+section.media-text-section.fixed-media.padding-box .text-cont {
+    max-width: 100%;
+}
+.text-cont h1 {
+    font-size: 30px;
+}
+section.media-text-section.fixed-media.padding-box .text-container .description {
+    display: none;
+    visibility: visible;
+}
+section.media-text-section.fixed-media.padding-box .text-container .description.visible {
+    display: block;
+}
+section.media-text-section.rental-opportunity.padding-box {
+    flex-direction: column;
+}
+section.media-text-section.rental-opportunity.padding-box .text-cont {
+    max-width: 100%;
+    padding: 40px;
+}
+
+.infra_box {
+    flex-wrap: wrap;
+}
+.infra_box .w30 {
+    width: 100% !important;
+    padding: 40px 60px 40px;
+    height: auto;
+}
+.infra_box .w70 {
+    width: 100% !important;
+    height: 500px;
+}
+.infra_box .infra_text h4 {
+    margin-bottom: 30px;
+}
+.infra_box .infra_text h3 {
+    font-size: 30px;
+}
+.text-row {
+    flex-wrap: wrap;
+}
+.text-row .text-col {
+    width: 100%;
+}
+.text-section .text-container {
+    padding: 50px 40px 40px;
+}
+.mb10 {
+    margin-bottom: 30px;
+}
+footer .foot2 {
+    text-align: center;
+    margin-top: 20px;
+}
+footer .foot {
+    flex-direction: column;
+}
+footer {
+    padding: 0px 60px 80px;
+}
+footer .foot1, footer .foot2 {
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+@media only screen and (max-width: 767px) {
+   .mb_face {
+        object-position: 0 10%;
+    }
+    .philosophy p {
+    font-size: 16px;
+    color: #fff;
+     font-weight: 400; 
+}
+    section#come-home-to-safety {
+    margin: 30px 0;
+}
+    section#luxury-rental-programme {
+    margin-top: 60px;
+}
+    section#our-service-philosophy {
+    margin-top: 30px;
+}
+.media-text-section.location-map h1 {
+    font-size: 30px;
+}
+.text-cont h3 {
+    font-size: 18px;
+}
+    nav {
+        width: 100%;
+    }
+    .start-screen .dlf-logo img {
+    width: 120px;
+}
+.start-screen .golf-logo img {
+    width: 70px;
+}
+.start-screen .start-top .golf-logo {
+    margin-top: 0;
+}
+    .mb10 {
+    margin-bottom: 10px;
+}
+    header.scrolled {
+    padding: 20px 30px;
+}
+    .captions .caption {
+    bottom: 20px;
+    left: 20px;
+    max-width: calc(100% - 120px);
+}
+.media-text-cont h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.captions .caption .caption-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+   }
+   .captions .caption .caption-subtitle {
+    font-size: 16px;
+}
+.media-text-cont {
+    padding: 0px 30px;
+}
+    header {
+    padding: 30px 30px;
+}
+.dlf-logo img {
+    width: 100px;
+}
+header .golf-right {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    border-left: solid 1px #fff;
+    padding-left: 15px;
+}
+.golf-logo img {
+    width: 50px;
+}
+.text-section .text-container {
+    padding: 40px 30px 40px;
+}
+.start-screen {
+    padding: 20px 40px !important;
+    padding-bottom: 120px !important;
+}
+.start-screen .start-headline {
+    font-size: 35px;
+    width: 100%;
+    min-width: 100%;
+}
+.start-screen .start-headline  br {
+    display: none;
+}
+.text-section {
+    padding: 0;
+}
+.padding-box {
+    padding:0;
+}
+.media-text-section .text-cont {
+    padding: 30px;
+}
+section.media-text-section, section.media-text-section.reverse {
+    flex-direction: column;
+}
+.media-text-section .image-cont {
+    min-height: 56.25vw;
+}
+.media-text-section video {
+    max-height: 32vh;
+    width: 100%;
+}
+
+.media-text-section.location-map .dist_cat {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.media-text-section.location-map .dist_cat li {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    font-size: 11px;
+    padding-bottom: 17px;
+    text-align: center;
+}
+.media-text-section.location-map .dist_cat li:before {
+    font-size: 26px;
+    width: 50px;
+    line-height: 50px;
+}
+.media-text-section.location-map .google_maps iframe {
+    height: 50vw;
+}
+.foot11 {
+    display: flex;
+    width: 100%;
+}
+.social-footer {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.foot11 .footer-button {
+    flex-grow: 1;
+    width: auto;
+}
+footer .foot1, footer .foot2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+.slider-item .slider-out {
+    height: 600px;
+    min-height: auto;
+    padding: 55px 30px 85px;
+}
+.slider-item .slider-out .slider-title {
+    font-size: 30px
+}
+.slider-item .slider-bottom:after {
+    content: '';
+    height: 600px;
+}
+.slider-item .slider-out .slider-desc {
+    font-size: 14px;
+}
+#luxury-rental-programme .text-cont{
+    padding-bottom: 30px;
+}
+.infra_box .w30 {
+    padding: 40px 30px;
+}
+.slider-item .slider-bottom {
+    margin-top: 180px;
+}
+section.slider-section.slider-mini.wow.fadeInUpBig.disnav.mb10 {
+    margin-top: 30px;
+}
+footer {
+    padding: 20px 60px 70px;
+}
+section.media-text-section.rental-opportunity.padding-box .text-cont {
+    padding: 30px;
+}
+.rental_form .fileds{
+    width: 100%
+}
+.media-text-section.location-map h4 {
+    font-size: 30px;
+}
+.media-text-section.location-map h4 {
+    font-size: 18px
+}
+}
+
+
+@media only screen and (min-width: 576px) {
+    [data-px-smooth] {
+        -webkit-transition: all 1s cubic-bezier(0.26, 0.1, 0.05, 0.74);
+        -o-transition: all 1s cubic-bezier(0.26, 0.1, 0.05, 0.74);
+        transition: all 1s cubic-bezier(0.26, 0.1, 0.05, 0.74);
+    }
+
+}
+
+
+@media only screen and (max-height: 750px) and (min-width: 1024px) {
+.hero-contact {
+    padding: 20px 25px;
+    width: 270px;
+}
+
+}
